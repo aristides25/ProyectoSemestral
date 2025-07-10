@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prisma Magazine - Diseño Gráfico con Propósito</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="magazine-container">
+        <div class="magazine-wrapper">
+            <div class="magazine" id="magazine">
+                
+                <!-- Página 1 - Portada -->
+                <div class="page page-1" data-page="1">
+                    <!-- Información del proyecto (lado izquierdo) -->
+                    <div class="project-info">
+                        <div class="project-context">
+                            <h3><i class="fas fa-graduation-cap"></i> Proyecto Académico</h3>
+                            <p>
+                                <strong>Curso:</strong> Formación de Emprendedores<br>
+                                <strong>Estudiante:</strong> Aristides Núñez<br>
+                                <strong>Universidad:</strong> UTP - Panamá<br>
+                                <strong>Semestre:</strong> 2024-2025
+                            </p>
+                        </div>
+                        
+                        <div class="navigation-guide">
+                            <h3><i class="fas fa-compass"></i> Cómo Navegar</h3>
+                            <div class="guide-items">
+                                <div class="guide-item">
+                                    <i class="fas fa-mouse-pointer"></i>
+                                    <span>Haz clic en los botones Anterior/Siguiente</span>
+                                </div>
+                                <div class="guide-item">
+                                    <i class="fas fa-keyboard"></i>
+                                    <span>Usa las flechas del teclado ←→</span>
+                                </div>
+                                <div class="guide-item">
+                                    <i class="fas fa-hand-paper"></i>
+                                    <span>Desliza en pantallas táctiles</span>
+                                </div>
+                                <div class="guide-item">
+                                    <i class="fas fa-search-plus"></i>
+                                    <span>Controles de zoom disponibles</span>
+                                </div>
+                                <div class="guide-item">
+                                    <i class="fas fa-expand"></i>
+                                    <span>Modo pantalla completa (F)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="page-content cover-page">
+                        <div class="cover-header">
+                            <h1 class="magazine-title">PRISMA<br><span class="title-accent">MAGAZINE</span></h1>
+                            <div class="edition-info">
+                                <span class="edition">Edición #1</span>
+                                <span class="date">Julio 2025</span>
+                            </div>
+                        </div>
+                        <div class="cover-image">
+                            <img src="logo.png" alt="Prisma Studio Logo" />
+                        </div>
+                        <div class="cover-footer">
+                            <p class="cover-subtitle">Diseño Gráfico con Propósito</p>
+                            <div class="cover-details">
+                                <span>Transformando ideas en experiencias visuales memorables</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Página 2 - Introducción -->
+                <div class="page page-2" data-page="2">
+                    <div class="page-content">
+                        <header class="page-header">
+                            <h2 class="page-title">Introducción</h2>
+                            <div class="page-number">02</div>
+                        </header>
+                        <div class="content-body">
+                            <div class="intro-text">
+                                <p class="lead-paragraph">
+                                    Bienvenidos a la primera edición de Prisma Magazine, una revista dedicada a explorar el poder del diseño 
+                                    como motor de conexión emocional, identidad de marca y liderazgo visual. En este ejemplar conocerás 
+                                    la historia y estructura de Prisma Studio, un emprendimiento panameño nacido del deseo de transformar 
+                                    ideas en experiencias visuales memorables.
+                                </p>
+                                <p>
+                                    Desde una perspectiva ética y con valores sólidos como la empatía, la transparencia y la excelencia 
+                                    profesional, Prisma Studio busca posicionarse como referente del diseño gráfico freelance en el mercado 
+                                    hispanohablante. Esta revista también pretende inspirar a otros emprendedores y mostrar que un negocio 
+                                    liderado con valores tiene impacto real en la sociedad.
+                                </p>
+                                <div class="highlight-box">
+                                    <h3>¿Por qué Prisma Studio?</h3>
+                                    <p>
+                                        El diseño gráfico es más que estética; es comunicación, es identidad, es la primera impresión 
+                                        que marca la diferencia. Prisma Studio nace para democratizar el acceso al diseño profesional 
+                                        y empoderar a emprendedores con herramientas visuales que comunican con propósito.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Página 3 - Biografías -->
+                <div class="page page-3" data-page="3">
+                    <div class="page-content">
+                        <header class="page-header">
+                            <h2 class="page-title">Biografías</h2>
+                            <div class="page-number">03</div>
+                        </header>
+                        <div class="content-body">
+                            <div class="biography-section">
+                                <div class="bio-card">
+                                    <div class="bio-image">
+                                        <img src="foto.jpg" alt="Aristides Núñez" />
+                                    </div>
+                                    <div class="bio-content">
+                                        <h3>Aristides Núñez</h3>
+                                        <p class="bio-title">Fundador de Prisma Studio • 22 años • Panameño</p>
+                                        <p class="bio-description">
+                                            Joven emprendedor panameño de 22 años, estudiante de Ciberseguridad en la Universidad 
+                                            Tecnológica de Panamá. Su pasión por el diseño visual, el branding y la innovación 
+                                            tecnológica lo llevó a fundar Prisma Studio, un proyecto independiente con el objetivo 
+                                            de empoderar a otros emprendedores a través de la identidad visual y el diseño estratégico.
+                                        </p>
+                                        <div class="bio-achievements">
+                                            <span class="achievement">• Especialista en Diseño Gráfico y Branding</span>
+                                            <span class="achievement">• Estudiante de Ciberseguridad - UTP</span>
+                                            <span class="achievement">• Emprendedor Digital Panameño</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="testimonial-section">
+                                    <blockquote>
+                                        "Creo que diseñar es una forma de servir. Cada logo, cada paleta de color, debe contar una historia real."
+                                        <footer>- Aristides Núñez, Fundador de Prisma Studio</footer>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Página 4 - Contenido: Misión y Visión -->
+                <div class="page page-4" data-page="4">
+                    <div class="page-content">
+                        <header class="page-header">
+                            <h2 class="page-title">Misión, Visión y Función</h2>
+                            <div class="page-number">04</div>
+                        </header>
+                        <div class="content-body">
+                            <div class="mission-vision-grid">
+                                <div class="mission-card">
+                                    <div class="card-icon">
+                                        <i class="fas fa-bullseye"></i>
+                                    </div>
+                                    <h3>Misión</h3>
+                                    <p>
+                                        Transformar ideas en diseños visuales que comuniquen con claridad, conecten 
+                                        emocionalmente y fortalezcan la identidad de nuestros clientes.
+                                    </p>
+                                </div>
+                                
+                                <div class="vision-card">
+                                    <div class="card-icon">
+                                        <i class="fas fa-eye"></i>
+                                    </div>
+                                    <h3>Visión</h3>
+                                    <p>
+                                        Ser un referente en diseño gráfico freelance en el mercado 
+                                        hispanohablante para 2030.
+                                    </p>
+                                </div>
+                                
+                                <div class="function-card">
+                                    <div class="card-icon">
+                                        <i class="fas fa-cogs"></i>
+                                    </div>
+                                    <h3>Propósito</h3>
+                                    <p>
+                                        Empoderar a emprendedores y pequeñas empresas con herramientas visuales 
+                                        profesionales que comuniquen su esencia y conecten con sus audiencias 
+                                        de manera auténtica y memorable.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="values-section">
+                                <h3>Valores Fundamentales</h3>
+                                <div class="values-grid">
+                                    <div class="value-item">
+                                        <i class="fas fa-lightbulb"></i>
+                                        <span>Creatividad</span>
+                                    </div>
+                                    <div class="value-item">
+                                        <i class="fas fa-star"></i>
+                                        <span>Calidad</span>
+                                    </div>
+                                    <div class="value-item">
+                                        <i class="fas fa-clock"></i>
+                                        <span>Puntualidad</span>
+                                    </div>
+                                    <div class="value-item">
+                                        <i class="fas fa-eye"></i>
+                                        <span>Transparencia</span>
+                                    </div>
+                                    <div class="value-item">
+                                        <i class="fas fa-heart"></i>
+                                        <span>Empatía</span>
+                                    </div>
+                                    <div class="value-item">
+                                        <i class="fas fa-arrows-alt"></i>
+                                        <span>Adaptabilidad</span>
+                                    </div>
+                                    <div class="value-item">
+                                        <i class="fas fa-trophy"></i>
+                                        <span>Excelencia</span>
+                                    </div>
+                                    <div class="value-item">
+                                        <i class="fas fa-fire"></i>
+                                        <span>Pasión</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Página 5 - Contenido: Formación Emprendedora -->
+                <div class="page page-5" data-page="5">
+                    <div class="page-content">
+                        <header class="page-header">
+                            <h2 class="page-title">Servicios de Diseño</h2>
+                            <div class="page-number">05</div>
+                        </header>
+                        <div class="content-body">
+                            <div class="importance-section">
+                                <h3>Prisma Studio: Servicios de Diseño Integral</h3>
+                                <p class="lead-paragraph">
+                                    Prisma Studio ofrece una gama completa de servicios de diseño gráfico pensados para 
+                                    emprendedores, pequeñas empresas y profesionales que buscan fortalecer su presencia 
+                                    visual y comunicar con impacto.
+                                </p>
+                                
+                                <div class="services-overview">
+                                    <div class="service-category-card">
+                                        <h4><i class="fas fa-palette"></i> Branding</h4>
+                                        <p>Logotipos, identidad visual, manuales de marca</p>
+                                    </div>
+                                    <div class="service-category-card">
+                                        <h4><i class="fas fa-mobile-alt"></i> Diseño Digital</h4>
+                                        <p>Posts para redes sociales, banners, newsletters</p>
+                                    </div>
+                                    <div class="service-category-card">
+                                        <h4><i class="fas fa-print"></i> Diseño Impreso</h4>
+                                        <p>Folletos, empaques, tarjetas de presentación</p>
+                                    </div>
+                                    <div class="service-category-card">
+                                        <h4><i class="fas fa-laptop"></i> Diseño Web</h4>
+                                        <p>Interfaces, landing pages, elementos web</p>
+                                    </div>
+                                    <div class="service-category-card">
+                                        <h4><i class="fas fa-chart-bar"></i> Presentaciones</h4>
+                                        <p>Infografías, reportes visuales, presentaciones</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="methodology-section">
+                                <h3>Paquetes de Servicios</h3>
+                                <div class="methodology-steps">
+                                    <div class="step">
+                                        <div class="step-number">1</div>
+                                        <div class="step-content">
+                                            <h4>Starter Pack - $299</h4>
+                                            <p>Logo profesional + 5 posts para redes sociales</p>
+                                        </div>
+                                    </div>
+                                    <div class="step">
+                                        <div class="step-number">2</div>
+                                        <div class="step-content">
+                                            <h4>Business Pack - $599</h4>
+                                            <p>Identidad visual completa + materiales básicos</p>
+                                        </div>
+                                    </div>
+                                    <div class="step">
+                                        <div class="step-number">3</div>
+                                        <div class="step-content">
+                                            <h4>Premium Pack - $999</h4>
+                                            <p>Branding integral + elementos web profesionales</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Página 6 - Contenido: Impacto en la Comunidad -->
+                <div class="page page-6" data-page="6">
+                    <div class="page-content">
+                        <header class="page-header">
+                            <h2 class="page-title">Marketing e Impacto</h2>
+                            <div class="page-number">06</div>
+                        </header>
+                        <div class="content-body">
+                            <div class="impact-intro">
+                                <h3>Estrategia de Promoción</h3>
+                                <p>
+                                    Prisma Studio implementa una estrategia de marketing digital enfocada en 
+                                    la construcción de relaciones auténticas y el posicionamiento como referente 
+                                    en diseño gráfico con propósito en el mercado hispanohablante.
+                                </p>
+                            </div>
+                            
+                            <div class="impact-areas">
+                                <div class="impact-card">
+                                    <div class="impact-icon">
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                    <h4>Redes Sociales</h4>
+                                    <p>
+                                        Presencia activa en Instagram y LinkedIn, compartiendo contenido 
+                                        de valor sobre diseño, branding y emprendimiento.
+                                    </p>
+                                    <div class="impact-metrics">
+                                        <span class="metric">Contenido diario de valor</span>
+                                        <span class="metric">Engagement auténtico</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="impact-card">
+                                    <div class="impact-icon">
+                                        <i class="fas fa-globe"></i>
+                                    </div>
+                                    <h4>Portfolio Digital</h4>
+                                    <p>
+                                        Plataforma web y presencia en Behance para mostrar proyectos 
+                                        realizados y atraer clientes potenciales.
+                                    </p>
+                                    <div class="impact-metrics">
+                                        <span class="metric">Proyectos destacados</span>
+                                        <span class="metric">Alcance internacional</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="impact-card">
+                                    <div class="impact-icon">
+                                        <i class="fas fa-handshake"></i>
+                                    </div>
+                                    <h4>Networking</h4>
+                                    <p>
+                                        Participación en eventos de emprendimiento y programa de 
+                                        referidos con 10% de descuento.
+                                    </p>
+                                    <div class="impact-metrics">
+                                        <span class="metric">Eventos de networking</span>
+                                        <span class="metric">10% descuento por referidos</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="impact-social-section">
+                                <h3>Impacto Social y Liderazgo</h3>
+                                <p>
+                                    Prisma Studio genera impacto social empoderrando a nuevos negocios con presencia visual 
+                                    profesional y democratizando el acceso a servicios de diseño para emprendedores emergentes.
+                                </p>
+                                <div class="leadership-values">
+                                    <div class="leadership-item">
+                                        <strong>Liderazgo Empático:</strong> Construimos relaciones sanas y duraderas
+                                    </div>
+                                    <div class="leadership-item">
+                                        <strong>Transparencia:</strong> Comunicación honesta en cada proyecto
+                                    </div>
+                                    <div class="leadership-item">
+                                        <strong>Compromiso:</strong> Entregamos más de lo esperado siempre
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Página 7 - Contenido: Zonificación y Servicios -->
+                <div class="page page-7" data-page="7">
+                    <div class="page-content">
+                        <header class="page-header">
+                            <h2 class="page-title">Público y Mercado</h2>
+                            <div class="page-number">07</div>
+                        </header>
+                        <div class="content-body">
+                            <div class="target-audience-section">
+                                <h3>Público Objetivo</h3>
+                                <div class="audience-grid">
+                                    <div class="audience-card">
+                                        <i class="fas fa-rocket"></i>
+                                        <h4>Emprendedores</h4>
+                                        <p>Personas que inician sus negocios y necesitan una identidad visual profesional</p>
+                                    </div>
+                                    <div class="audience-card">
+                                        <i class="fas fa-building"></i>
+                                        <h4>Pequeñas Empresas</h4>
+                                        <p>PYMEs que buscan renovar su imagen o crear presencia digital</p>
+                                    </div>
+                                    <div class="audience-card">
+                                        <i class="fas fa-user-tie"></i>
+                                        <h4>Profesionales</h4>
+                                        <p>Consultores, coaches y profesionales de servicios independientes</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="market-reach-section">
+                                <h3>Zona de Actividad</h3>
+                                <div class="market-info">
+                                    <div class="market-card">
+                                        <i class="fas fa-globe-americas"></i>
+                                        <h4>Mercado Hispanohablante</h4>
+                                        <p>Servicios digitales sin límites geográficos para toda América Latina y España</p>
+                                    </div>
+                                    <div class="market-card">
+                                        <i class="fas fa-laptop"></i>
+                                        <h4>Modalidad Digital</h4>
+                                        <p>Trabajo 100% remoto con entregas digitales de alta calidad</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tools-section">
+                                <h3>Herramientas de Diseño</h3>
+                                <div class="tools-grid">
+                                    <div class="tool-item">
+                                        <i class="fas fa-paint-brush"></i>
+                                        <h4>Adobe Creative Suite</h4>
+                                        <p>Illustrator, Photoshop, InDesign</p>
+                                    </div>
+                                    <div class="tool-item">
+                                        <i class="fas fa-pencil-ruler"></i>
+                                        <h4>Figma</h4>
+                                        <p>Diseño colaborativo y prototipado</p>
+                                    </div>
+                                    <div class="tool-item">
+                                        <i class="fas fa-palette"></i>
+                                        <h4>Canva Pro</h4>
+                                        <p>Plantillas y recursos gráficos</p>
+                                    </div>
+                                    <div class="tool-item">
+                                        <i class="fas fa-camera"></i>
+                                        <h4>Recursos Visuales</h4>
+                                        <p>Bancos de imágenes premium</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="evaluation-framework">
+                                <h3>Proceso de Trabajo</h3>
+                                <div class="framework-steps">
+                                    <div class="framework-step">
+                                        <strong>Briefing:</strong> Entendimiento profundo del cliente y proyecto
+                                    </div>
+                                    <div class="framework-step">
+                                        <strong>Conceptualización:</strong> Desarrollo de ideas y propuestas creativas
+                                    </div>
+                                    <div class="framework-step">
+                                        <strong>Diseño:</strong> Creación de elementos visuales profesionales
+                                    </div>
+                                    <div class="framework-step">
+                                        <strong>Entrega:</strong> Revisiones y archivos finales optimizados
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Página 8 - Conclusión -->
+                <div class="page page-8" data-page="8">
+                    <div class="page-content">
+                        <header class="page-header">
+                            <h2 class="page-title">Conclusión</h2>
+                            <div class="page-number">08</div>
+                        </header>
+                        <div class="content-body">
+                            <div class="conclusion-content">
+                                <div class="key-learnings">
+                                    <h3>Reflexiones Clave</h3>
+                                    <p class="lead-paragraph">
+                                        Prisma Studio representa más que un negocio: es una filosofía de servicio visual, 
+                                        donde el diseño se convierte en puente entre las ideas y la acción. Este proyecto 
+                                        refleja cómo los valores éticos, la moral y el liderazgo pueden guiar un emprendimiento 
+                                        exitoso, humano y sostenible.
+                                    </p>
+                                    
+                                    <div class="learning-points">
+                                        <div class="learning-point">
+                                            <i class="fas fa-heart"></i>
+                                            <p>
+                                                <strong>Diseño con Propósito:</strong> Cada proyecto es una oportunidad 
+                                                de impactar positivamente el crecimiento de otros emprendedores.
+                                            </p>
+                                        </div>
+                                        
+                                        <div class="learning-point">
+                                            <i class="fas fa-handshake"></i>
+                                            <p>
+                                                <strong>Relaciones Auténticas:</strong> El éxito se construye sobre la base 
+                                                de relaciones genuinas y transparentes con cada cliente.
+                                            </p>
+                                        </div>
+                                        
+                                        <div class="learning-point">
+                                            <i class="fas fa-star"></i>
+                                            <p>
+                                                <strong>Excelencia Sostenible:</strong> La calidad y la mejora continua 
+                                                son el fundamento de un negocio que trasciende en el tiempo.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="call-to-action">
+                                    <h3>El Futuro de Prisma Studio</h3>
+                                    <p>
+                                        Esta revista es el primer paso hacia una serie de publicaciones que buscan inspirar, 
+                                        enseñar y conectar. Prisma Studio continuará evolucionando, siempre manteniendo sus 
+                                        valores fundamentales y su compromiso con el diseño que transforma ideas en realidades 
+                                        visuales poderosas.
+                                    </p>
+                                    
+                                    <div class="final-message">
+                                        <blockquote>
+                                            "El diseño no es solo lo que se ve y se siente. El diseño es cómo funciona. 
+                                            En Prisma Studio, hacemos que las ideas funcionen visualmente."
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Página 9 - Bibliografía -->
+                <div class="page page-9" data-page="9">
+                    <div class="page-content">
+                        <header class="page-header">
+                            <h2 class="page-title">Bibliografía</h2>
+                            <div class="page-number">09</div>
+                        </header>
+                        <div class="content-body">
+                            <div class="bibliography-section">
+                                <h3>Referencias Bibliográficas</h3>
+                                <div class="bibliography-list">
+                                    <div class="reference-item">
+                                        <p>
+                                            Genially. (2020). <em>Convierte tus ideas en experiencias</em>. 
+                                            https://www.genial.ly/es
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="reference-item">
+                                        <p>
+                                            Kotler, P., & Armstrong, G. (2020). <em>Principios de marketing</em> (17.ª ed.). 
+                                            Pearson Education.
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="reference-item">
+                                        <p>
+                                            Universidad Tecnológica de Panamá. (2025). <em>Material del curso "Formación de Emprendedores"</em>. 
+                                            Facultad de Ingeniería Industrial.
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="reference-item">
+                                        <p>
+                                            Núñez, A. (2025). <em>Plan de Negocio - Prisma Studio</em>. 
+                                            Proyecto personal de emprendimiento.
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="reference-item">
+                                        <p>
+                                            Adobe. (2024). <em>Creative Cloud: Design tools and resources</em>. 
+                                            https://www.adobe.com/creativecloud.html
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="reference-item">
+                                        <p>
+                                            Figma. (2024). <em>Collaborative design platform</em>. 
+                                            https://www.figma.com
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="reference-item">
+                                        <p>
+                                            Wheeler, A. (2017). <em>Designing Brand Identity: An Essential Guide for the Whole Branding Team</em>. 
+                                            John Wiley & Sons.
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="reference-item">
+                                        <p>
+                                            Lupton, E. (2018). <em>Design Is Storytelling</em>. 
+                                            Cooper Hewitt, Smithsonian Design Museum.
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                <div class="additional-resources">
+                                    <h3>Recursos Adicionales</h3>
+                                    <div class="resource-list">
+                                        <div class="resource-item">
+                                            <i class="fas fa-globe"></i>
+                                            <span>www.behance.net - Plataforma de portfolio para diseñadores</span>
+                                        </div>
+                                        <div class="resource-item">
+                                            <i class="fas fa-book"></i>
+                                            <span>www.designbetter.co - Recursos sobre diseño y branding</span>
+                                        </div>
+                                        <div class="resource-item">
+                                            <i class="fas fa-video"></i>
+                                            <span>YouTube - Tutoriales de Adobe Creative Suite</span>
+                                        </div>
+                                        <div class="resource-item">
+                                            <i class="fas fa-instagram"></i>
+                                            <span>Instagram - Comunidad de diseñadores gráficos</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <!-- Controles de navegación -->
+        <div class="navigation-controls">
+            <button class="nav-btn prev-btn" id="prevBtn">
+                <i class="fas fa-chevron-left"></i>
+                <span>Anterior</span>
+            </button>
+            
+            <div class="page-indicator">
+                <span class="current-page" id="currentPage">1</span>
+                <span class="page-separator">/</span>
+                <span class="total-pages" id="totalPages">9</span>
+            </div>
+            
+            <button class="nav-btn next-btn" id="nextBtn">
+                <span>Siguiente</span>
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        
+        <!-- Zoom controls -->
+        <div class="zoom-controls">
+            <button class="zoom-btn" id="zoomOut">
+                <i class="fas fa-search-minus"></i>
+            </button>
+            <button class="zoom-btn" id="zoomIn">
+                <i class="fas fa-search-plus"></i>
+            </button>
+            <button class="zoom-btn" id="fullscreen">
+                <i class="fas fa-expand"></i>
+            </button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
